@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redborder {
+    border: 2px solid red;
+}
+
+.blueborder {
+    border: 2px solid blue;
+}
+
+.greenborder {
+    border: 2px solid green;
+}
+
+.goldborder {
+    border: 2px solid gold;
+}
+
+.purpleborder {
+    border: 2px solid purple;
+}
+
+
+.min-height {
+    min-height: 1080px;
+}
+
+.max-height {
+    min-height: 780px;
+}
+
+.s-height {
+    min-height: 700px;
+}
+
+.min-width {
+    width: 50%;
+}
+
+.max-width {
+    width: 100%;
+}
+
+@font-face {
+    font-family: nasa;
+    src: url(nasalization/nasalization-rg.otf);
+}
+
+@font-face {
+    font-family: funk;
+    src: url(fonts/fonnts.com-Bely_Display_W00_Regular.ttf);
+}
+
+.btn-search {
+    color: white;
+    background-color: rgba(255, 82, 8, 255);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    transition: .3s all linear;
+
+}
+
+.btn-search:hover {
+    background-color: white;
+    color: black;
+    transition: .3s all linear;
+}
+
+.btn-search a {
+    color: white;
+    border: none;
+    text-decoration: none;
+    transition: .3s all linear;
+
+}
+
+.btn-search a:hover {
+    color: black;
+    transition: .3s all linear;
+}
+
+/*  */
+
+
+.bi:hover {
+    background-color: rgba(255, 82, 8, 255);
+    border: 2px solid white !important;
+    color: white !important;
+    transition: .3s all linear;
+
+}
+
+.order-button {
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(255, 82, 8, 255);
+    transition: .3s all linear;
+}
+
+.order-button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 82, 8, 255);
+    border: 2px solid rgba(255, 82, 8, 255);
+    transition: .3s all linear;
+
+}
+
+
+/*  */
+
+.card-section:hover {
+    box-shadow: rgba(255, 81, 0, 0.56) 0px 22px 70px 4px;
+    transition: .7s all linear;
+    transform: scale(1.1);
+}
+
+.card-section img:hover {
+    transform: rotateY(360deg);
+    transition: 1s all linear;
+}
+
+/*  */
+
+.forth-container img:hover {
+    transform: scale(1.1);
+    transition: 1s all linear;
+}
+
+
+/*  */
+
+.login-button {
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgba(255, 82, 8, 255);
+    transition: .3s all linear;
+}
+
+.login-button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 82, 8, 255);
+    border: 2px solid rgba(255, 82, 8, 255);
+    transition: .3s all linear;
+
+}
+
+
+/*  */
+
+.opj {
+    color: white;
+    font-size: 14px;
+    transition: .3s all linear;
+}
+
+.opj:hover {
+    display: flex;
+    color: rgba(220, 96, 8);
+    transition: .3s all linear;
+}
+
+/*------------------------------------------------------ About-Us-page--------------------------------------------------------------------- */
+
+.ab-first-conatiner span a {
+
+    text-decoration: none;
+    color: rgb(220, 96, 8);
+    transition: .3s all linear;
+
+}
+
+
+.ab-first-conatiner span a:hover {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .3s all linear;
+
+}
+
+
+
+.te-first-conatiner span a {
+
+    text-decoration: none;
+    color: rgb(220, 96, 8);
+    transition: .3s all linear;
+
+}
+
+
+.te-first-conatiner span a:hover {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .3s all linear;
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+
+.product-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+    background-image: url(img-2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+}
+
+.card-1 {
+    width: 430px;
+    height: 550px;
+    background-color: rgb(220, 96, 8);
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transform: translateY(0px);
+    transition: all 1s linear;
+    overflow: hidden;
+
+}
+
+.card-1:hover .informetion-section {
+    transform: translateY(-100px);
+    transition: all 1s linear;
+}
+
+.img-section {
+    width: 100%;
+    height: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(220, 96, 8);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.img-section img {
+    width: 50%;
+    position: absolute;
+}
+
+.informetion-section {
+
+    width: 100%;
+    height: 350px;
+    background-color: rgb(248, 248, 248);
+
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    transition: all 1s linear;
+
+
+}
+
+.informetion-section h1 {
+    font-size: 30px;
+    color: black;
+}
+
+.informetion-section p {
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+    width: 95%;
+
+}
+
+.contect-us-page {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+
+}
+
+
+/* ------------------------------------------------------------------singup--------------------------------------------------------------- */
+
+.email {
+
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.366);
+    font-size: 15px;
+
+}
+
+.password {
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.366);
+    font-size: 15px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.715);
+    font-size: 14px;
+
+}
+
+.firstname {
+    width: 39.1%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.366);
+    font-size: 15px;
+}
+
+.lastname {
+    width: 39.1%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.366);
+    font-size: 15px;
+}
+
+.email {
+    width: 39.1%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.366);
+    font-size: 15px;
+}
+
+.phonenumber {
+    width: 39.1%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.366);
+    font-size: 15px;
+}
+
+.fueltype {
+    width: 39.1%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.366);
+    font-size: 15px;
+}
+
+.what {
+    width: 39.1%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.366);
+    font-size: 15px;
+}
+
+.address {
+    width: 39.1%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.366);
+    font-size: 15px;
+}
+
+.form-select{
+    width: 39.1%  !important;
+    border-radius: 5px;
+    border: none !important;
+    background-color: rgba(255, 255, 255, 0.366) !important;
+    font-size: 15px !important;
+    color: white;
+}
+
+
+
+
+
+.singimg-section {
+    background-color: rgb(220, 96, 8);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.sing-page {
+    background-color: rgb(220, 96, 8);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.sing-button {
+    
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: orange;
+    transition: .3s all linear;
+}
+
+.sing-button:hover {
+    background-color:white  ;
+    color:rgb(255, 68, 0) ;
+    border: 2px solid rgba(255, 82, 8, 255);
+    transition: .3s all linear;
+
+}
+
+.order-button a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.order-button a:hover{
+    transition: .3s all linear;
+    color:rgb(255, 68, 0) !important ;
+    text-decoration: none !important;
+    
+}
